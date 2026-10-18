@@ -1,12 +1,11 @@
 import { useState, useEffect } from 'react'
 import { Sun, Moon, Menu, X, ArrowUpRight, Mail, Phone, Github, Linkedin, Download } from 'lucide-react'
 
-// Links e contatos. Deixe vazio ('') para esconder o botão correspondente.
 const EMAIL = 'vitoralves0801@gmail.com'
 const PHONE = '+55 11 96833-6999'
 const LINKEDIN = 'https://www.linkedin.com/in/vitor-alves-484932230/'
 const GITHUB = 'https://github.com/vitu1415'
-const REPO_BACKEND = 'https://github.com/vitu1415/conectaAi-Back-VSR'    // repositório do ConectaAí (backend)
+const REPO_BACKEND = 'https://github.com/vitu1415/conectaAi-Back-VSR'
 const DEMO = 'https://landpage.conectaai.app.br'
 const CV = '/curriculo-vitor-alves.pdf'
 
