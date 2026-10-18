@@ -41,7 +41,8 @@ ul, ol { list-style: none; padding: 0; }
 .facts small { color: var(--mute); font-size: 1.0rem; line-height: 1.3; display: block; margin-top: .35rem; }
 @media (max-width: 52rem) { .hero-meta { grid-template-columns: 1fr; } }
 @media (min-width: 52.01rem) {
-  .hero { min-height: calc(100vh - 4rem); min-height: calc(100svh - 4rem); display: flex; flex-direction: column; justify-content: center; }
+  .hero { min-height: calc(100vh - 4rem); min-height: calc(100svh - 4rem); display: flex; flex-direction: column; justify-content: center; padding-block: 2rem clamp(3rem, 6vw, 5rem); }
+  .hero-meta { margin-top: clamp(2rem, 4vw, 3.5rem); }
 }
 
 /* seções editoriais */
